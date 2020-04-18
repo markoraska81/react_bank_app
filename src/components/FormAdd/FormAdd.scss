@@ -1,0 +1,24 @@
+
+.addAccount-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+
+  .formAdd {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 60px;
+
+    input {
+      padding: 10px 20px;
+      width: 600px;
+      height: 40px;
+      font-size: 15px;
+      border-radius: 5px;
+      border: solid 1px #757171;
+      outline: none;
+      margin-bottom: 20px;
+    }
+  }
+}

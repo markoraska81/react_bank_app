@@ -1,0 +1,101 @@
+
+
+.account-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 2px solid;
+  box-shadow: 0 0 4px 0;
+  padding: 20px;
+  background-color: #fff;
+
+  .button-container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    text-align: center;
+
+    .add {
+      color: #fff;
+      background-color: #17a2b8;
+      border-radius: 5px;
+      font-size: 15px;
+      width: 130px;
+      height: 40px;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      margin-right: 20px;
+      padding: 10px 20px;
+    }
+  }
+
+  .table {
+    width: 100%;
+    margin-bottom: 10px;
+    color: #212529;
+    border-collapse: collapse;
+
+    th {
+      text-align: left;
+      border-top: solid 1px gray;
+      border-bottom: solid 2px gray;
+      font-size: 20px;
+      height: 50px;
+      font-weight: 600;
+      padding: 0 40px 0 40px;
+    }
+
+    td {
+      text-align: left;
+      border-bottom: solid 1px gray;
+      font-size: 20px;
+      height: 50px;
+      font-weight: 300;
+      padding: 0 40px 0 40px;
+    }
+
+
+    .view {
+      background: #f5f5f5;
+      color: #007bff;
+      font-size: 17px;
+      border-radius: 5px;
+      border: solid 1px #007bff;
+      width: 100%;
+      padding: 7px;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+    }
+
+    .edit {
+      background: #f5f5f5;
+      color: #706605;
+      font-size: 17px;
+      border-radius: 5px;
+      border: solid 1px #706605;
+      width: 100%;
+      padding: 7px;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+    }
+
+    .delete {
+      background: #f5f5f5;
+      color: #dc3545;
+      font-size: 17px;
+      border-radius: 5px;
+      border: solid 1px #dc3545;
+      width: 100%;
+      padding: 7px;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+    }
+  }
+}

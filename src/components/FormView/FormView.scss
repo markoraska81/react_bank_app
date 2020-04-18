@@ -1,0 +1,31 @@
+
+
+ul {
+  list-style: none;
+  padding: 30px;
+  margin: 0;
+  border: solid 1px gray;
+
+  li {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.print {
+    color: #fff;
+    background-color: #17a2b8;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 180px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    padding: 10px;
+}
